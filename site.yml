@@ -1,5 +1,4 @@
 ---
 - hosts: all
-  tasks:
-  - name: placeholder
-    command: echo Hello World
+  roles:
+    - webserver

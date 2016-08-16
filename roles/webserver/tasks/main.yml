@@ -9,3 +9,17 @@
   service:
     name: apache2
     state: started
+
+- name: get postgres
+  apt:
+    name: postgresql
+    state: present
+
+- name: get postgres
+  apt:
+    name: python-psycopg2
+    state: present
+
+- name: setup postgres server
+  postgresql_db:
+    name: my_tmp_db

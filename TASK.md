@@ -1,3 +1,4 @@
-#First Steps
+#Next Steps
 
-Baby steps first. Get an Apache server up and running. 
+So now you've got Apache installed, but odds are that if you're actually using Apache, you probably
+don't want to use the default configuration. Blah.
